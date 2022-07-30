@@ -1,0 +1,42 @@
+li{
+    align-items: center;
+}
+.nav-item{
+    padding: 0 20px;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: rgb(39, 13, 234);
+    color: #fff;
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid rgb(224, 44, 44);
+    color: #333;
+}
+a.btn-first:hover{
+    background: rgb(36, 38, 159);
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 15px rgb(159, 144, 226);
+    transition: 0.3s;
+}
+a.btn-second:hover{
+    background: rgb(224, 44, 44);
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 15px rgb(92, 33, 33);
+    transition: 0.3s;
+}
+#features {
+    background-color: black;
+}
+#team{
+    background-color: black;
+}
